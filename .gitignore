@@ -1,0 +1,41 @@
+.ipynb_checkpoints
+saved_models
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+myenv/
+env/
+ENV/
+
+# Data files that might be large
+*.csv
+*.h5
+*.pkl
+*.npz
+*.npy
+
+# Logs and temporary files
+logs/
+*.log
+.DS_Store
+tmp/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Model checkpoints and large files
+checkpoints/
+*.ckpt
+*.pb
+*.hdf5
